@@ -1,0 +1,525 @@
+PS C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master> python -m unittest discover -v 
+test_factor_fibonacci_con_ceros (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_con_ceros)
+no puede existir cero ... ERROR
+test_factor_fibonacci_con_dos_numeros (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_con_dos_numeros) ... FAIL    
+test_factor_fibonacci_con_un_solo_numero (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_con_un_solo_numero) ... ok
+test_factor_fibonacci_mayor_a_10 (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_mayor_a_10) ... FAIL
+test_factor_fibonacci_mayor_a_100 (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_mayor_a_100)
+resultado = factor_fibonacci(100,100,100) ... ok
+test_factor_fibonacci_mayor_a_50 (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_mayor_a_50)
+no deja se bloquea ... ok
+test_factor_fibonacci_numeros_diferentes (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_numeros_diferentes)
+Verifica valores básicos en la serie de Fibonacci. ... FAIL
+test_factor_fibonacci_numeros_iguales (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_numeros_iguales)
+Verifica valores básicos en la serie de Fibonacci. ... FAIL
+test_factor_fibonacci_numeros_negativos (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_numeros_negativos)
+no puede ser negativo. ... ERROR
+test_factor_fibonacci_numeros_positivos (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_numeros_positivos)
+Verifica valores básicos en la serie de Fibonacci. ... FAIL
+test_multiplicador_factor_de_100_en_adelante_float (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_de_100_en_adelante_float)Se va verificar los factores ... FAIL
+test_multiplicador_factor_de_10_en_99_float (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_de_10_en_99_float)
+Se va verificar los factores ... FAIL
+test_multiplicador_factor_de_cero_a_9_float (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_de_cero_a_9_float)
+Se va verificar los factores ... FAIL
+test_multiplicador_factor_negativos (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_negativos)
+Se va verificar los factores ... FAIL
+test_multiplicador_factor_negativos_float (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_negativos_float)
+Se va verificar los factores ... FAIL
+test_multiplicador_factor_negativos_y_positivos (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_negativos_y_positivos)      
+Se va verificar los factores ... FAIL
+test_multiplicador_factor_positivos (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_positivos)
+Se va verificar los factores ... FAIL
+test_multiplicador_factor_rango_0_a_9 (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_rango_0_a_9)
+Se va verificar los factores ... FAIL
+test_multiplicador_factor_rango_100_en_adelante (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_rango_100_en_adelante)      
+Se va verificar los factores ... FAIL
+test_multiplicador_factor_rango_10_a_99 (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_rango_10_a_99)
+Se va verificar los factores ... FAIL
+test_contar_vocales_Mayuscula_Acentuado_grave (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayuscula_Acentuado_grave)
+todas deben dar error ya que no esta la función con acentuado grave solo reconoce un error el primero ... FAIL
+test_contar_vocales_Mayuscula_minusculas_Acentuado_grave (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayuscula_minusculas_Acentuado_grave)
+todas deben dar error ya que no esta la función con acentuado grave solo reconoce un error el primero ... FAIL
+test_contar_vocales_Mayusculas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayusculas)
+Se va verificar que las vocales en mayúsculas ... FAIL
+test_contar_vocales_Mayusculas_Acentuadas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayusculas_Acentuadas)
+Se va verificar que las vocales en mayúsculas acentuadas ... FAIL
+test_contar_vocales_Mayusculas_y_Minusculas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayusculas_y_Minusculas)
+Se va verificar que las vocales en mayúsculas y minusculas ... FAIL
+test_contar_vocales_Mayusculas_y_Minusculas_Acentuadas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayusculas_y_Minusculas_Acentuadas)
+Se va verificar que las vocales en mayúsculas y minusculas acentuadas ... FAIL
+test_contar_vocales_Minusculas_Acentuadas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Minusculas_Acentuadas)
+Se va verificar que conteo de las vocales  minusculas acentuadas ... FAIL
+test_contar_vocales_Minusculas_Acentuado_grave (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Minusculas_Acentuado_grave)
+todas deben dar error ya que no esta la función con acentuado grave solo reconoce un error el primero ... FAIL
+test_contar_vocales_minusculas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_minusculas)
+Se va verificar que las vocales en minúsculas ... FAIL
+test_contar_vocales_minusculas_con_simbolos (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_minusculas_con_simbolos)
+se verifica con simbolos ... FAIL
+test_multiplicar_vocales_mayusculas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_multiplicar_vocales_mayusculas_acentuadas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas_acentuadas)      
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_multiplicar_vocales_mayusculas_con_simbolos (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas_con_simbolos)  
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_multiplicar_vocales_mayusculas_y_minusculas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas_y_minusculas)  
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_multiplicar_vocales_mayusculas_y_minusculas_con_simbolos (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas_y_minusculas_con_simbolos)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_multiplicar_vocales_minusculas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_multiplicar_vocales_minusculas_acentuadas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas_acentuadas)      
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_multiplicar_vocales_minusculas_acentuadas_con_simbolos (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas_acentuadas_con_simbolos)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_multiplicar_vocales_minusculas_con_simbolos (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas_con_simbolos)  
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_multiplicar_vocales_minusculas_y_mayusculas_acentuadas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas_y_mayusculas_acentuadas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_minusculas_y_mayusculas (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_minusculas_y_mayusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_minusculas_y_mayusculas_con_numeros (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_minusculas_y_mayusculas_con_numeros)se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_vocales_mayusculas (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_vocales_mayusculas_con_acento (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas_con_acento)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_vocales_mayusculas_con_acento_con_numeros (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas_con_acento_con_numeros)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_vocales_mayusculas_con_numeros (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas_con_numeros)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_vocales_mayusculas_y_minusculas_con_acento (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas_y_minusculas_con_acento)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_vocales_minusculas (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_minusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_vocales_minusculas_con_acento (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_minusculas_con_acento)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+test_porcentaje_vocales_minusculas_con_numeros (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_minusculas_con_numeros)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula ... FAIL
+
+======================================================================
+ERROR: test_factor_fibonacci_con_ceros (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_con_ceros)
+no puede existir cero
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 255, in test_factor_fibonacci_con_ceros
+    resultado = factor_fibonacci(0, 0, 0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\newmath\factor.py", line 101, in factor_fibonacci        
+    raise ValueError("El valor de n debe ser mayor que 0.")
+ValueError: El valor de n debe ser mayor que 0.
+
+======================================================================
+ERROR: test_factor_fibonacci_numeros_negativos (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_numeros_negativos)
+no puede ser negativo.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 235, in test_factor_fibonacci_numeros_negativos
+    resultado = factor_fibonacci(-1, -2, 3)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\newmath\factor.py", line 101, in factor_fibonacci        
+    raise ValueError("El valor de n debe ser mayor que 0.")
+ValueError: El valor de n debe ser mayor que 0.
+
+======================================================================
+FAIL: test_factor_fibonacci_con_dos_numeros (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_con_dos_numeros)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 291, in test_factor_fibonacci_con_dos_numeros
+    self.assertEqual(resultado, esperado)
+AssertionError: 2.17 != 3.33
+
+======================================================================
+FAIL: test_factor_fibonacci_mayor_a_10 (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_mayor_a_10)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 322, in test_factor_fibonacci_mayor_a_10
+    self.assertEqual(resultado, esperado)
+AssertionError: 89.0 != 34.1
+
+======================================================================
+FAIL: test_factor_fibonacci_numeros_diferentes (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_numeros_diferentes)
+Verifica valores básicos en la serie de Fibonacci.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 211, in test_factor_fibonacci_numeros_diferentes
+    self.assertEqual(resultado, esperado)
+AssertionError: 3.0 != 4.0
+
+======================================================================
+FAIL: test_factor_fibonacci_numeros_iguales (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_numeros_iguales)
+Verifica valores básicos en la serie de Fibonacci.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 195, in test_factor_fibonacci_numeros_iguales
+    self.assertEqual(resultado, esperado)
+AssertionError: 8.0 != 1.0
+
+======================================================================
+FAIL: test_factor_fibonacci_numeros_positivos (tests.test_newmath.test_factor.Testfactor_fibonacci.test_factor_fibonacci_numeros_positivos)
+Verifica valores básicos en la serie de Fibonacci.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 227, in test_factor_fibonacci_numeros_positivos
+    self.assertEqual(resultado, esperado)
+AssertionError: 5.8 != 5.9
+
+======================================================================
+FAIL: test_multiplicador_factor_de_100_en_adelante_float (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_de_100_en_adelante_float)
+Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 176, in test_multiplicador_factor_de_100_en_adelante_float
+    self.assertEqual(restultado, esperado)
+AssertionError: 1201.6 != 1201.7
+
+======================================================================
+FAIL: test_multiplicador_factor_de_10_en_99_float (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_de_10_en_99_float)        
+Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 159, in test_multiplicador_factor_de_10_en_99_float
+    self.assertEqual(restultado, esperado)
+AssertionError: 91.19999999999999 != 91.2
+
+======================================================================
+FAIL: test_multiplicador_factor_de_cero_a_9_float (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_de_cero_a_9_float)        
+Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 142, in test_multiplicador_factor_de_cero_a_9_float
+    self.assertEqual(restultado, esperado)
+AssertionError: 0.8 != 0.9
+
+======================================================================
+FAIL: test_multiplicador_factor_negativos (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_negativos)
+Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 40, in test_multiplicador_factor_negativos
+    self.assertEqual(restultado, esperado)
+AssertionError: 3 != 5
+
+======================================================================
+FAIL: test_multiplicador_factor_negativos_float (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_negativos_float)
+Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 125, in test_multiplicador_factor_negativos_float
+    self.assertEqual(restultado, esperado)
+AssertionError: 0.4 != 0.41
+
+======================================================================
+FAIL: test_multiplicador_factor_negativos_y_positivos (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_negativos_y_positivos)Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 57, in test_multiplicador_factor_negativos_y_positivos
+    self.assertEqual(restultado, esperado)
+AssertionError: 4 != 5
+
+======================================================================
+FAIL: test_multiplicador_factor_positivos (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_positivos)
+Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 23, in test_multiplicador_factor_positivos
+    self.assertEqual(restultado, esperado)
+AssertionError: 6 != 7
+
+======================================================================
+FAIL: test_multiplicador_factor_rango_0_a_9 (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_rango_0_a_9)
+Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 74, in test_multiplicador_factor_rango_0_a_9
+    self.assertEqual(restultado, esperado)
+AssertionError: 2 != 3
+
+======================================================================
+FAIL: test_multiplicador_factor_rango_100_en_adelante (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_rango_100_en_adelante)Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 108, in test_multiplicador_factor_rango_100_en_adelante
+    self.assertEqual(restultado, esperado)
+AssertionError: 1204 != 1205
+
+======================================================================
+FAIL: test_multiplicador_factor_rango_10_a_99 (tests.test_newmath.test_factor.Testmultiplicador_factor.test_multiplicador_factor_rango_10_a_99)
+Se va verificar los factores
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_factor.py", line 91, in test_multiplicador_factor_rango_10_a_99
+    self.assertEqual(restultado, esperado)
+AssertionError: 93 != 0
+
+======================================================================
+FAIL: test_contar_vocales_Mayuscula_Acentuado_grave (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayuscula_Acentuado_grave)
+todas deben dar error ya que no esta la función con acentuado grave solo reconoce un error el primero
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 146, in test_contar_vocales_Mayuscula_Acentuado_grave
+    self.assertEqual(restultado, esperado)
+AssertionError: 0 != 5
+
+======================================================================
+FAIL: test_contar_vocales_Mayuscula_minusculas_Acentuado_grave (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayuscula_minusculas_Acentuado_grave)
+todas deben dar error ya que no esta la función con acentuado grave solo reconoce un error el primero
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 163, in test_contar_vocales_Mayuscula_minusculas_Acentuado_grave
+    self.assertEqual(restultado, esperado)
+AssertionError: 0 != 5
+
+======================================================================
+FAIL: test_contar_vocales_Mayusculas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayusculas)
+Se va verificar que las vocales en mayúsculas
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 45, in test_contar_vocales_Mayusculas
+    self.assertEqual(restultado, esperado)
+AssertionError: 2 != 1
+
+======================================================================
+FAIL: test_contar_vocales_Mayusculas_Acentuadas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayusculas_Acentuadas)
+Se va verificar que las vocales en mayúsculas acentuadas
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 80, in test_contar_vocales_Mayusculas_Acentuadas
+    self.assertEqual(restultado, esperado)
+AssertionError: 2 != 3
+
+======================================================================
+FAIL: test_contar_vocales_Mayusculas_y_Minusculas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayusculas_y_Minusculas)
+Se va verificar que las vocales en mayúsculas y minusculas
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 62, in test_contar_vocales_Mayusculas_y_Minusculas
+    self.assertEqual(restultado, esperado)
+AssertionError: 4 != 7
+
+======================================================================
+FAIL: test_contar_vocales_Mayusculas_y_Minusculas_Acentuadas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Mayusculas_y_Minusculas_Acentuadas)
+Se va verificar que las vocales en mayúsculas y minusculas acentuadas
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 119, in test_contar_vocales_Mayusculas_y_Minusculas_Acentuadas
+    self.assertEqual(restultado, esperado)
+AssertionError: 4 != 7
+
+======================================================================
+FAIL: test_contar_vocales_Minusculas_Acentuadas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Minusculas_Acentuadas)
+Se va verificar que conteo de las vocales  minusculas acentuadas
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 99, in test_contar_vocales_Minusculas_Acentuadas
+    self.assertEqual(restultado, esperado)
+AssertionError: 2 != 7
+
+======================================================================
+FAIL: test_contar_vocales_Minusculas_Acentuado_grave (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_Minusculas_Acentuado_grave)
+todas deben dar error ya que no esta la función con acentuado grave solo reconoce un error el primero
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 129, in test_contar_vocales_Minusculas_Acentuado_grave
+    self.assertEqual(restultado, esperado)
+AssertionError: 0 != 5
+
+======================================================================
+FAIL: test_contar_vocales_minusculas (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_minusculas)
+Se va verificar que las vocales en minúsculas
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 25, in test_contar_vocales_minusculas
+    self.assertEqual(restultado, esperado)
+AssertionError: 5 != 3
+
+======================================================================
+FAIL: test_contar_vocales_minusculas_con_simbolos (tests.test_newmath.test_string.TestContarVocales.test_contar_vocales_minusculas_con_simbolos)
+se verifica con simbolos
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 188, in test_contar_vocales_minusculas_con_simbolos
+    self.assertEqual(restultado, esperado)
+AssertionError: 3 != 4
+
+======================================================================
+FAIL: test_multiplicar_vocales_mayusculas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 228, in test_multiplicar_vocales_mayusculas
+    self.assertEqual(restultado, esperado)
+AssertionError: -5 != 5
+
+======================================================================
+FAIL: test_multiplicar_vocales_mayusculas_acentuadas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas_acentuadas)se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 281, in test_multiplicar_vocales_mayusculas_acentuadas
+    self.assertEqual(restultado, esperado)
+AssertionError: 4 != 5
+
+======================================================================
+FAIL: test_multiplicar_vocales_mayusculas_con_simbolos (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas_con_simbolos)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 333, in test_multiplicar_vocales_mayusculas_con_simbolos
+    self.assertEqual(restultado, esperado)
+AssertionError: -5 != 5
+
+======================================================================
+FAIL: test_multiplicar_vocales_mayusculas_y_minusculas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas_y_minusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 246, in test_multiplicar_vocales_mayusculas_y_minusculas
+    self.assertEqual(restultado, esperado)
+AssertionError: 4 != 5
+
+======================================================================
+FAIL: test_multiplicar_vocales_mayusculas_y_minusculas_con_simbolos (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_mayusculas_y_minusculas_con_simbolos)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 351, in test_multiplicar_vocales_mayusculas_y_minusculas_con_simbolos
+    self.assertEqual(restultado, esperado)
+AssertionError: 4 != 5
+
+======================================================================
+FAIL: test_multiplicar_vocales_minusculas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 210, in test_multiplicar_vocales_minusculas
+    self.assertEqual(restultado, esperado)
+AssertionError: 9 != 4
+
+======================================================================
+FAIL: test_multiplicar_vocales_minusculas_acentuadas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas_acentuadas)se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 263, in test_multiplicar_vocales_minusculas_acentuadas
+    self.assertEqual(restultado, esperado)
+AssertionError: 4 != 5
+
+======================================================================
+FAIL: test_multiplicar_vocales_minusculas_acentuadas_con_simbolos (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas_acentuadas_con_simbolos)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 368, in test_multiplicar_vocales_minusculas_acentuadas_con_simbolos
+    self.assertEqual(restultado, esperado)
+AssertionError: 4 != 5
+
+======================================================================
+FAIL: test_multiplicar_vocales_minusculas_con_simbolos (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas_con_simbolos)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 315, in test_multiplicar_vocales_minusculas_con_simbolos
+    self.assertEqual(restultado, esperado)
+AssertionError: 9 != 4
+
+======================================================================
+FAIL: test_multiplicar_vocales_minusculas_y_mayusculas_acentuadas (tests.test_newmath.test_string.Testmultiplicacion_vocales.test_multiplicar_vocales_minusculas_y_mayusculas_acentuadas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 298, in test_multiplicar_vocales_minusculas_y_mayusculas_acentuadas
+    self.assertEqual(restultado, esperado)
+AssertionError: 8 != 5
+
+======================================================================
+FAIL: test_porcentaje_minusculas_y_mayusculas (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_minusculas_y_mayusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 426, in test_porcentaje_minusculas_y_mayusculas
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+======================================================================
+FAIL: test_porcentaje_minusculas_y_mayusculas_con_numeros (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_minusculas_y_mayusculas_con_numeros)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 537, in test_porcentaje_minusculas_y_mayusculas_con_numeros
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+======================================================================
+FAIL: test_porcentaje_vocales_mayusculas (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 407, in test_porcentaje_vocales_mayusculas
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+======================================================================
+FAIL: test_porcentaje_vocales_mayusculas_con_acento (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas_con_acento)      
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 443, in test_porcentaje_vocales_mayusculas_con_acento
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+======================================================================
+FAIL: test_porcentaje_vocales_mayusculas_con_acento_con_numeros (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas_con_acento_con_numeros)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 554, in test_porcentaje_vocales_mayusculas_con_acento_con_numeros
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+======================================================================
+FAIL: test_porcentaje_vocales_mayusculas_con_numeros (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas_con_numeros)    
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 518, in test_porcentaje_vocales_mayusculas_con_numeros
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+======================================================================
+FAIL: test_porcentaje_vocales_mayusculas_y_minusculas_con_acento (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_mayusculas_y_minusculas_con_acento)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 480, in test_porcentaje_vocales_mayusculas_y_minusculas_con_acento
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+======================================================================
+FAIL: test_porcentaje_vocales_minusculas (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_minusculas)
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 389, in test_porcentaje_vocales_minusculas
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+======================================================================
+FAIL: test_porcentaje_vocales_minusculas_con_acento (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_minusculas_con_acento)      
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 461, in test_porcentaje_vocales_minusculas_con_acento
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+======================================================================
+FAIL: test_porcentaje_vocales_minusculas_con_numeros (tests.test_newmath.test_string.Testporcentaje_vocales.test_porcentaje_vocales_minusculas_con_numeros)    
+se verifica que los resultados concuerden cambiando cada letra segun lo asignado en la formula
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master\tests\test_newmath\test_string.py", line 500, in test_porcentaje_vocales_minusculas_con_numeros
+    self.assertEqual(restultado, esperado)
+AssertionError: 50.0 != 60
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.076s
+
+FAILED (failures=45, errors=2)
+PS C:\Users\IEN\Documents\Andres\INTER\pruebas sw\examen1_corte_1-master2\examen1_corte_1-master> 
